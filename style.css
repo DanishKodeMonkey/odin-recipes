@@ -29,12 +29,15 @@ img{
     margin: 10px 10px;
 }
 .nav-bar{
-    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    margin: auto auto;
+    width: 100%;
 }
 .nav-link{
-    display:inline-flex;
-    width:auto;
+    text-align: center;
     padding: 10px;
     background-color: aqua;
     border: 3px solid black;
+    width:100%
 }
