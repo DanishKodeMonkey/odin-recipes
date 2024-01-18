@@ -10,17 +10,31 @@ body{
     margin: 0px;
 }
 
-.nav-link{
-    background-color: aqua;
-    border: 3px solid black;
-    margin:0px;
-}
+
 .border-simple{
     border:2px dotted white;
 }
 
 img{
-    margin-left: 20px;
+    display:block;
+    width: 50%;
+    margin:20px auto;  
     border: 2px solid antiquewhite;
     border-radius: 20px;
+}
+.content{
+    background-color:antiquewhite;
+    border: 3px dotted white;
+    padding:4px 30px;
+    margin: 10px 10px;
+}
+.nav-bar{
+    margin: 0 auto;
+}
+.nav-link{
+    display:inline-flex;
+    width:auto;
+    padding: 10px;
+    background-color: aqua;
+    border: 3px solid black;
 }
