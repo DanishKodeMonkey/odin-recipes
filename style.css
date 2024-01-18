@@ -1,0 +1,26 @@
+body{
+    background-color: coral;
+}
+
+.title{
+    text-align: center;
+    background-color: antiquewhite;
+    font-weight: bold;
+    border: 5px solid black;
+    margin: 0px;
+}
+
+.nav-link{
+    background-color: aqua;
+    border: 3px solid black;
+    margin:0px;
+}
+.border-simple{
+    border:2px dotted white;
+}
+
+img{
+    margin-left: 20px;
+    border: 2px solid antiquewhite;
+    border-radius: 20px;
+}
